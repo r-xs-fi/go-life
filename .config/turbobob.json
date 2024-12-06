@@ -2,7 +2,11 @@
 	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
 	"version_major": 1,
 	"project_name": "go-life",
+	"meta": {
+		"description": "Container image for go-life - terminal based Conway's Game of Life.",
+		"website": "https://github.com/sachaos/go-life"
+	},
 	"docker_images": [
-		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/go-life" }
+		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/go-life", "platforms": ["linux/amd64"] }
 	]
 }

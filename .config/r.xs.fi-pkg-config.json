@@ -1,0 +1,7 @@
+{
+	"not_building_for_platforms_because": {
+		"linux/arm64": "Upstream has no prebuilt binary",
+		"linux/arm/v7": "Upstream has no prebuilt binary",
+		"linux/riscv64": "Upstream has no prebuilt binary"
+	}
+}
